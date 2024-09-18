@@ -1,0 +1,50 @@
+/* Style for Admin Page */
+.add-product-section {
+          padding: 20px;
+          background-color: var(--gray-color);
+      }
+      
+      form {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+      }
+      
+      form label {
+          font-weight: var(--font-bold);
+      }
+      
+      form input, form textarea {
+          padding: 10px;
+          border: 1px solid var(--dark-color-light);
+          border-radius: 5px;
+      }
+      
+      form button {
+          padding: 10px;
+          background-color: var(--second-color);
+          color: var(--white-color);
+          border: none;
+          cursor: pointer;
+      }
+      
+      .product-list {
+          margin-top: 20px;
+      }
+      
+      .product-item {
+          background-color: var(--white-color);
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid var(--dark-color-light);
+          border-radius: 5px;
+      }
+      
+      .product-item h3 {
+          margin-bottom: 10px;
+      }
+      
+
+
+
+

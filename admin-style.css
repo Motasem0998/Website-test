@@ -1,0 +1,291 @@
+/* General Styles for the Admin Panel */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #34495e;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Table Style for Product and Section Listing */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Section Management Styles */
+.section-form, .section-table {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.section-table th {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.section-table td input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.section-table td {
+    text-align: center;
+}
+
+.section-table td a.delete {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.section-table td a.delete:hover {
+    color: #c0392b;
+}
+
+/* Style for Section Add/Edit/Delete Buttons */
+.section-form button,
+.section-table button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.section-form button:hover,
+.section-table button:hover {
+    background-color: #2980b9;
+}
+
+.section-table button.delete {
+    background-color: #e74c3c;
+}
+
+.section-table button:hover.delete {
+    background-color: #c0392b;
+}
+
+/* Product Preview Section */
+.product-preview {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.product-preview img {
+    max-width: 150px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-preview h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.product-preview p {
+    margin: 0;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+/* Page Layout Adjustments */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h1, .container h2 {
+    margin-bottom: 30px;
+}
+
+/* Style for Select Option Inputs */
+select {
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><polygon points="7 10 3 4 11 4"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px 12px;
+}
+
+/* Admin Buttons (Add, Edit, Delete) */
+.admin-actions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-actions button {
+    background-color: #27ae60;
+}
+
+.admin-actions button.delete {
+    background-color: #e74c3c;
+}
+
+.admin-actions button:hover.delete {
+    background-color: #c0392b;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .product-preview {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-preview img {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 22px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
